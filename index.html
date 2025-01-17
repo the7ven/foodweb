@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodweb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">Le Polygone</div>
+            <div class="nav-links">
+                <a href="">about-us</a>
+                <a href="">Menu</a>
+                <a href="">contact</a>
+            </div>
+            <div class="cta"><a href="">Reservation</a></div>
+
+        </nav>
+
+        <section class="hero ">
+            <div class="hero-text  ">
+                Savourez nos grillades  dans un cadre chaleureux et raffiné, Et vivez une expérience gastronomique inoubliable.
+              <div> <a href="" class="btn">voir le menu</a></div> 
+            </div>
+            <div class="hero-image  ">
+                <img src="images/hero-image.png" alt="">
+            </div>
+
+
+        </section>
+    </header>
+    
+    <div class="container ">
+        <div class="left-section ">
+          <div class="stats-card">
+            <div class="stats-number">
+              30,000+ 
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#22c55e">
+                <path d="M23 6l-9.5 9.5-5-5L1 18" stroke="#22c55e" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div class="stats-text">
+              Ventes en Juillet 2024 avec des avis 5 étoiles et des clients satisfaits
+            </div>
+            <div class="avatar-group">
+              <div class="avatar"><img src="images/avatars (1).jpeg" alt=""></div>
+              <div class="avatar"><img src="images/avatars (2).jpeg" alt=""></div>
+              <div class="avatar"><img src="images/avatars (3).jpeg" alt=""></div>
+              <div class="avatar"><img src="images/avatars (4).jpeg" alt=""></div>
+             
+            </div>
+          </div>
+          <div class="image-grid">
+            <div class="product-image"><img src="images/steaks.jpg" alt=""></div>
+            <div>
+              <div class="product-image"><img src="images/steaks2.jpg" alt=""></div>
+              <div class="ratings">
+                😍 😊 😃 😄 😀
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="subtitle">À PROPOS DE NOUS</div>
+          <h1 class="title">Notre Histoire</h1>
+          <p class="description">
+            Situé au cœur de la ville, notre restaurant vous accueille dans un cadre élégant et décontracté. 
+            Depuis notre ouverture, nous nous efforçons de créer une expérience culinaire unique qui allie 
+            tradition et modernité.
+          </p>
+          <div class="hidden-content" id="moreContent">
+            <p>
+              Notre chef passionné sélectionne avec soin les meilleurs produits locaux et de saison pour 
+              vous proposer une carte qui évolue au fil des saisons. Chaque plat est préparé avec amour 
+              et créativité, mêlant techniques traditionnelles et touches contemporaines.
+            </p>
+            <br>
+            <p>
+              Notre équipe dévouée s'engage à vous offrir un service attentionné et personnalisé, 
+              pour faire de chaque repas un moment mémorable. Que ce soit pour un déjeuner d'affaires, 
+              un dîner romantique ou une célébration en famille, nous mettons tout en œuvre pour 
+              satisfaire vos attentes.
+            </p>
+          </div>
+          <button class="explore-button" id="toggleButton">EN SAVOIR PLUS</button>
+        </div>
+      </div>
+    
+<section class="menu ">
+  <div class="menu-header">
+    <h1 class="menu-title">Notre Menu</h1>
+    <p class="menu-subtitle">Une cuisine raffinée aux saveurs authentiques</p>
+  </div>
+  <div class="menu-container">
+    <section class="menu-section">
+      <h2 class="section-title">Entrées</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="item-image" style="background-image: url('images/Poke\ Bowl\ au\ saumon\,\ avocat\,\ carottes\ et\ concombre.jpeg')"></div>
+          <div class="item-content">
+            <div class="item-title">
+              <span>Tartare de Saumon</span>
+              <span class="item-price">18€</span>
+            </div>
+            <p class="item-description">
+              Saumon frais coupé au couteau, avocat, mangue et vinaigrette aux agrumes
+            </p>
+            <div class="dietary-info">
+              <span class="dietary-icon">🌱 Sans gluten</span>
+              <span class="dietary-icon">🐟 Poisson</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-image" style="background-image: url('images/Comment\ choisir\ avec\ succès\ son\ foie\ gras\ maison\ pour\ Noël\ _\ \(1\).jpeg')"></div>
+          <div class="item-content">
+            <div class="item-title">
+              <span>Foie Gras Maison</span>
+              <span class="item-price">22€</span>
+            </div>
+            <p class="item-description">
+              Foie gras mi-cuit, chutney de figues et pain brioché toasté
+            </p>
+            <div class="dietary-info">
+              <span class="dietary-icon">🥖 Fait maison</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <h2 class="section-title">Plats Principaux</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="item-image" style="background-image: url('images/Comment\ réussir\ un\ tournedos\ Rossini\ pour\ Noël\ _\ -\ 750g_com.jpeg')"></div>
+          <div class="item-content">
+            <div class="item-title">
+              <span>Filet de Bœuf Rossini</span>
+              <span class="item-price">34€</span>
+            </div>
+            <p class="item-description">
+              Filet de bœuf, escalope de foie gras poêlée, sauce aux truffes
+            </p>
+            <div class="dietary-info">
+              <span class="dietary-icon">⭐ Signature</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-image" style="background-image: url('images/Images\ de\ Gourmet\ _\ Freepik.jpeg')"></div>
+          <div class="item-content">
+            <div class="item-title">
+              <span>Saint-Jacques</span>
+              <span class="item-price">32€</span>
+            </div>
+            <p class="item-description">
+              Noix de Saint-Jacques, risotto aux champignons, émulsion au parmesan
+            </p>
+            <div class="dietary-info">
+              <span class="dietary-icon">🦐 Fruits de mer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+<section class="contact-section">
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2 class="contact-title">Contactez-nous</h2>
+      <ul class="contact-details">
+        <li>📍 123 rue de la Gastronomie, 75001 Paris</li>
+        <li>📞 01 23 45 67 89</li>
+        <li>✉️ contact@restaurant.fr</li>
+      </ul>
+      
+      <div class="opening-hours">
+        <h3>Horaires d'ouverture</h3>
+        <p>Lundi - Vendredi: 12h00 - 14h30, 19h00 - 22h30</p>
+        <p>Samedi - Dimanche: 12h00 - 15h00, 19h00 - 23h00</p>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" required>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" required>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Navigation</h3>
+      <ul>
+        <li>Accueil</li>
+        <li>Menu</li>
+        <li>À propos</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul>
+        <li>Réservation en ligne</li>
+        <li>Événements privés</li>
+        <li>Service traiteur</li>
+        <li>Carte cadeau</li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h3>Légal</h3>
+      <ul>
+        <li>Mentions légales</li>
+        <li>Politique de confidentialité</li>
+        <li>CGV</li>
+        <li>Plan du site</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Votre Restaurant. Tous droits réservés.</p>
+    <div class="social-links">
+      <a href="#">📱</a>
+      <a href="#">📸</a>
+      <a href="#">📘</a>
+    </div>
+  </div>
+</footer>
+
+<!-----------
+    <section class="about">
+           <h1 class="title">About-Us</h1>
+        <div class="about-content">
+             <div class="about-text">
+                     <p>Au cœur de [quartier], notre restaurant vous invite à vivre une expérience culinaire unique où raffinement rime avec convivialité.
+                        Dans un cadre élégant mais décontracté, nous avons créé un lieu où les familles et les amis peuvent se retrouver pour partager des moments précieux autour d'une cuisine de qualité.
+                        Notre chef allie techniques traditionnelles et créativité pour sublimer les meilleurs produits de saison. 
+                        Chaque plat est pensé pour vous offrir une expérience gastronomique accessible, 
+                        où la simplicité des saveurs authentiques rencontre la finesse de la présentation.
+                        Dans notre salle lumineuse au décor contemporain, notre équipe attentionnée s'assure que chaque visite soit mémorable,
+                        que ce soit pour un déjeuner d'affaires ou un dîner en famille.
+                    </p>
+             </div> 
+
+             <div class="about-pics">
+
+             </div>
+
+        </div>
+    </section>
+
+    ----------------->
+  <script src="main.js"></script>
+</body>
+</html>
