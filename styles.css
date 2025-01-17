@@ -350,6 +350,70 @@ nav{
     .menu-grid {
       grid-template-columns: 1fr;
     }
+    html{
+      overflow-x: hidden;
+    }
+  }
+
+
+  @media (max-width: 480px){
+    .menu-title {
+      font-size: 36px;
+    }
+    
+    .section-title {
+      font-size: 28px;
+    }
+    
+    .menu-grid {
+      grid-template-columns: 1fr;
+    }
+    html{
+      overflow-x: hidden;
+    }
+
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .hero{
+      flex-direction: column;
+    }
+
+    .hero-text{
+      font-size: 3rem;
+    }
+
+    .hero-image img{
+      width: 400px;
+    }
+
+
+    .logo{
+      font-size: 20px;
+
+    }
+
+    .cta a{
+      font-size: 15px;
+    }
+
+    .nav-links a{
+     font-size: 15px;
+    }
+
+    .btn{
+      font-size: 30px;
+    }
+
+    body{
+      overflow-x: hidden;
+    }
   }
 
 
