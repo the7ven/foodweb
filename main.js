@@ -69,12 +69,12 @@ heroImage.style.transform = 'translateX(100px)';
 window.addEventListener('load', () => {
     setTimeout(() => {
         // Animation du texte de gauche à droite
-        heroText.style.transition = 'all 1.2s ease-out';
+        heroText.style.transition = 'all .3s ease-out';
         heroText.style.opacity = '1';
         heroText.style.transform = 'translateX(0)';
 
         // Animation de l'image de droite à gauche
-        heroImage.style.transition = 'all 1.2s ease-out';
+        heroImage.style.transition = 'all .7s ease-out';
         heroImage.style.opacity = '1';
         heroImage.style.transform = 'translateX(0)';
     }, 500);
